@@ -26,7 +26,7 @@
 
 body {
     font-family: "Roboto", sans-serif;
-    letter-spacing: 0.32px;
+    letter-spacing: 0.02em;
     font-weight: 400;
     font-size: 16px;
     line-height: 1.5;
@@ -54,13 +54,14 @@ button {
     font-family: var(--logoFont);
     font-weight: 800;
     font-size: 18px;
-    line-height: 1.166;
+    line-height: 1.17;
     text-transform: uppercase;
-    color: var(--navyBlue);
+    color: var(--iris);
+    letter-spacing: 0.03em;
 }
 
 .logo-decor {
-    color: var(--iris);
+    color: var(--navyBlue);
 }
 
 .menu-link {
@@ -122,10 +123,11 @@ button {
 .section-title {
     font-weight: 700;
     font-size: 36px;
-    line-height: 1.111;
+    line-height: 1.11;
     text-align: center;
     text-transform: capitalize;
     color: var(--navyBlue);
+    /* letter-spacing: 0.02em; */
 }
 
 .subtitle {
@@ -133,6 +135,7 @@ button {
     font-size: 20px;
     line-height: 1.2;
     color: var(--navyBlue);
+    /* letter-spacing: 0.02em; */
 }
 
 /* .text {
@@ -145,6 +148,10 @@ button {
 .team {
     background-color: var(--cloud);
     text-align: center;
+}
+
+.team-item {
+    background-color: var(--white);
 }
 
 /*____________________FOOTER___________________________*/
